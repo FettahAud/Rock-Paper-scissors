@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+  width: 600px;
+  height: 200px;
+  color: white;
+}
+
+.cont div {
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  line-height: 100px;
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.AI-container div {
+  background-color: #271a1a;
+  pointer-events: none;
+  cursor: none;
+}
+
+.my-container div {
+  -webkit-animation: boxColor 1s linear backwards;
+          animation: boxColor 1s linear backwards;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+.my-container div:nth-of-type(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.my-container div:nth-of-type(3) {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+@-webkit-keyframes boxColor {
+  0% {
+    background-color: #ffba08;
+  }
+  19% {
+    background-color: #faa307;
+  }
+  20% {
+    background-color: #f48c06;
+  }
+  29% {
+    background-color: #f48c06;
+  }
+  30% {
+    background-color: #e85d04;
+  }
+  39% {
+    background-color: #e85d04;
+  }
+  40% {
+    background-color: #dc2f02;
+  }
+  49% {
+    background-color: #dc2f02;
+  }
+  50% {
+    background-color: #d00000;
+  }
+  59% {
+    background-color: #d00000;
+  }
+  60% {
+    background-color: #9d0208;
+  }
+  69% {
+    background-color: #9d0208;
+  }
+  70% {
+    background-color: #6a040f;
+  }
+  79% {
+    background-color: #6a040f;
+  }
+  80% {
+    background-color: #370617;
+  }
+  89% {
+    background-color: #370617;
+  }
+  90% {
+    background-color: #03071e;
+  }
+  99% {
+    background-color: #03071e;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+
+@keyframes boxColor {
+  0% {
+    background-color: #ffba08;
+  }
+  19% {
+    background-color: #faa307;
+  }
+  20% {
+    background-color: #f48c06;
+  }
+  29% {
+    background-color: #f48c06;
+  }
+  30% {
+    background-color: #e85d04;
+  }
+  39% {
+    background-color: #e85d04;
+  }
+  40% {
+    background-color: #dc2f02;
+  }
+  49% {
+    background-color: #dc2f02;
+  }
+  50% {
+    background-color: #d00000;
+  }
+  59% {
+    background-color: #d00000;
+  }
+  60% {
+    background-color: #9d0208;
+  }
+  69% {
+    background-color: #9d0208;
+  }
+  70% {
+    background-color: #6a040f;
+  }
+  79% {
+    background-color: #6a040f;
+  }
+  80% {
+    background-color: #370617;
+  }
+  89% {
+    background-color: #370617;
+  }
+  90% {
+    background-color: #03071e;
+  }
+  99% {
+    background-color: #03071e;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+
+@-webkit-keyframes uWin {
+  0% {
+    background-color: #ffba08;
+  }
+  19% {
+    background-color: #f6fa07;
+  }
+  20% {
+    background-color: #f43606;
+  }
+  29% {
+    background-color: #36f406;
+  }
+  30% {
+    background-color: #04e8a4;
+  }
+  39% {
+    background-color: #044ce8;
+  }
+  40% {
+    background-color: #dc02bf;
+  }
+  49% {
+    background-color: #02dca6;
+  }
+  50% {
+    background-color: #d08700;
+  }
+  59% {
+    background-color: #d000c6;
+  }
+  60% {
+    background-color: #79029d;
+  }
+  69% {
+    background-color: #9d2102;
+  }
+  70% {
+    background-color: #502700;
+  }
+  79% {
+    background-color: #5e046a;
+  }
+  80% {
+    background-color: #00a100;
+  }
+  89% {
+    background-color: #586092;
+  }
+  90% {
+    background-color: #13990e;
+  }
+  99% {
+    background-color: #0092a5;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes uWin {
+  0% {
+    background-color: #ffba08;
+  }
+  19% {
+    background-color: #f6fa07;
+  }
+  20% {
+    background-color: #f43606;
+  }
+  29% {
+    background-color: #36f406;
+  }
+  30% {
+    background-color: #04e8a4;
+  }
+  39% {
+    background-color: #044ce8;
+  }
+  40% {
+    background-color: #dc02bf;
+  }
+  49% {
+    background-color: #02dca6;
+  }
+  50% {
+    background-color: #d08700;
+  }
+  59% {
+    background-color: #d000c6;
+  }
+  60% {
+    background-color: #79029d;
+  }
+  69% {
+    background-color: #9d2102;
+  }
+  70% {
+    background-color: #502700;
+  }
+  79% {
+    background-color: #5e046a;
+  }
+  80% {
+    background-color: #00a100;
+  }
+  89% {
+    background-color: #586092;
+  }
+  90% {
+    background-color: #13990e;
+  }
+  99% {
+    background-color: #0092a5;
+  }
+  100% {
+    background-color: black;
+  }
+}
+/*# sourceMappingURL=main.css.map */
